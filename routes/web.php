@@ -22,4 +22,4 @@ Route::get('/', [PostController::class, 'index'])->name('accueil');
 
 Route::get('/post/{id}', [PostController::class, 'show']);
 
-Route::get('/contact/', [PostController::class, 'contact'])->name('contact');
+Route::get('/contact', [PostController::class, 'contact'])->name('contact');
